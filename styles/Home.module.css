@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+.wrapper {
+  margin: 0 auto;
+  padding-bottom: 80px;
+  width: 960px;
+  color: #3d3d3d;
+}
+
+.navigation {
+  padding-top: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+.snsIcons {
+  display: flex;
+}
+
+.snsIcon_twitter {
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+  display: block;
+  background-size: 64px 64px;
+  background-image: url("../public/snsIcon-twitter.png");
+}
+
+.snsIcon_instagram {
+  display: block;
+  text-indent: -9999px;
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+  display: block;
+  background-size: 64px 64px;
+  margin-left: 16px;
+  background-image: url("../public/snsIcon-instagram.png");
+}
+
+.contentRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.card {
+  width: 448px;
+  margin-bottom: 64px;
+  display: block;
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.contentTitle {
+  font-size: 24px;
+  margin-top: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.category {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+
+.contentTitle {
+  font-size: 48px;
+  margin-top: 52px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.contentCategory {
+  font-size: 32px;
+  font-family: "Oswald", sans-serif;
+}
+
+.img_1colum {
+  margin-top: 120px;
+  width: 100%;
+}
+
+.img-2columRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-2colum {
+  margin-top: 40px;
+  width: 460px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 40px;
+}
+
+.sectionHeading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.body {
+  font-size: 16px;
+  margin-top: 8px;
+}
